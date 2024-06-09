@@ -1,25 +1,20 @@
 {
   "name": "ab-nextjs-fonts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "✏️  A lightweight collection of React fonts created by Abraham Ukachi, and optimized for Next.js applications 😎.",
   "main": "index.ts",
   "types": "types/index.d.ts",
-
   "homepage": "https://github.com/abraham-ukachi/ab-nextjs-fonts",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abraham-ukachi/ab-nextjs-fonts.git"
   },
-
   "bugs": {
     "url": "https://github.com/abraham-ukachi/ab-nextjs-fonts/issues"
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "keywords": [
     "react",
     "nextjs",
@@ -28,12 +23,10 @@
     "ukachi",
     "ab-nextjs-fonts"
   ],
-
   "author": {
     "name": "Abraham Ukachi",
     "url": "https://github.com/abraham-ukachi",
     "email": "abraham.ukachi@laplateforme.io"
   },
-
   "license": "MIT"
 }
