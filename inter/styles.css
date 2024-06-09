@@ -1,0 +1,202 @@
+/* 
+* @license MIT
+* ~~~~~~~~~~~~
+* ab-nextjs-fonts
+* ~~~~~~~~~~~~ 
+* Copyright (c) 2024 Abraham Ukachi. The abElements Project.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the 'Software'), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions: 
+*  
+* The above copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software. 
+*
+* THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* @project: ab-nextjs-fonts
+* @name: Styles - Inter - Font
+* @file: inter/styles.css
+* @type: CSS Stylesheet
+* @authors: Abraham Ukachi <abraham.ukachi@laplateforme.io>
+*
+* Example usage:
+*   1+|> // Import the inter font styles in typography or CSS file 
+*    -|> @import 'ab-nextjs-fonts/inter/styles.css';
+*    -|>
+*
+*   2+|> // Use the regular Inter font family in css' body
+*    -|>
+*    -|> body {
+*    -|>   font-family: Inter; // or Inter-Regular
+*    -|> }
+*    -|>
+*
+*/
+
+
+
+/*
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* MOTTO: We'll always do more 😜!!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+/* TODO: Use / Prioritize variable fonts instead */
+
+
+
+
+
+
+
+/* ====<<< Inter - Font >>>=== */
+
+
+/* Inter - ExtraLight (200) */
+@font-face {
+  font-family: 'Inter-ExtraLight';
+  font-weight: 200;
+  font-style: normal;
+  src: url('./static/Inter-ExtraLight.ttf') format('truetype');
+}
+
+/* Inter - Light (300) */
+@font-face {
+  font-family: 'Inter-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./static/Inter-Light.ttf') format('truetype');
+}
+
+
+/* Inter - Regular (400) */
+@font-face {
+  font-family: 'Inter-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Inter-Regular.ttf') format('truetype');
+}
+
+
+/* Inter - DEFAULT (regular) */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Inter-Regular.ttf') format('truetype');
+}
+
+
+/* Inter - Medium (500) */
+@font-face {
+  font-family: 'Inter-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./static/Inter-Medium.ttf') format('truetype');
+}
+
+/* Inter - SemiBold (600) */
+@font-face {
+  font-family: 'Inter-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./static/Inter-SemiBold.ttf') format('truetype');
+}
+
+/* Inter - Bold (700) */
+@font-face {
+  font-family: 'Inter-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./static/Inter-Bold.ttf') format('truetype');
+}
+
+/* Inter - ExtraBold (800) */
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  font-weight: 800;
+  font-style: normal;
+  src: url('./static/Inter-ExtraBold.ttf') format('truetype');
+}
+
+/* Inter - Black (900) */
+@font-face {
+  font-family: 'Inter-Black';
+  font-weight: 900;
+  font-style: normal;
+  src: url('./static/Inter-Black.ttf') format('truetype');
+}
+
+
+
+/* ====>>> End of Inter Font <<<=== */
+
+
+
+
+
+
+
+
+
+
+/***** CSS rules for Inter Font *****/
+
+/* ExtraLight - Inter Font */
+.font.inter.extralight {
+  font-family: 'Inter-ExtraLight';
+}
+
+
+/* Light - Inter Font */
+.font.inter.light {
+  font-family: 'Inter-Light';
+}
+
+
+/* Regular - Inter Font | DEFAULT */
+.font.inter.regular, .font.inter {
+  font-family: 'Inter-Regular';
+}
+
+
+/* Medium - Inter Font */
+.font.inter.medium {
+  font-family: 'Inter-Medium';
+}
+
+/* SemiBold - Inter Font */
+.font.inter.semibold {
+  font-family: 'Inter-SemiBold';
+}
+
+
+/* Bold - Inter Font */
+.font.inter.bold {
+  font-family: 'Inter-Bold';
+}
+
+
+/* ExtraBold - Inter Font */
+.font.inter.extrabold {
+  font-family: 'Inter-ExtraBold';
+}
+
+
+/* Black - Inter Font */
+.font.inter.black {
+  font-family: 'Inter-Black';
+}
+
+
+/* ===>>> End of CSS rules for Inter Font <<<=== */
