@@ -61,8 +61,8 @@ A list of all the supported **fonts** and their current status:
 
 | No. | Name | Status |
 |:----|:-----|:-------|
-| 1 | *`Inter`* | *In progress* |
-| 2 | *`Mulish`* | Pending |
+| 1 | *`Inter`* | [Done](./inter) |
+| 2 | *`Mulish`* | *In progress* |
 | 3 | *`Quicksand`* | Pending |
 | 4 | *`Roboto`* | Pending |
 | 5 | *`Zilla Slab`* | Pending |
