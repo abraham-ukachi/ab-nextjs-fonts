@@ -2,6 +2,7 @@
   "name": "ab-nextjs-fonts",
   "version": "0.1.2",
   "description": "✏️  A lightweight collection of React fonts created by Abraham Ukachi, and optimized for Next.js applications 😎.",
+  "type": "module",
   "main": "index.ts",
   "types": "types/index.d.ts",
   "homepage": "https://github.com/abraham-ukachi/ab-nextjs-fonts",
@@ -13,7 +14,7 @@
     "url": "https://github.com/abraham-ukachi/ab-nextjs-fonts/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext .ts,.tsx --fix"
   },
   "keywords": [
     "react",
@@ -28,5 +29,11 @@
     "url": "https://github.com/abraham-ukachi",
     "email": "abraham.ukachi@laplateforme.io"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.3"
+  }
 }
