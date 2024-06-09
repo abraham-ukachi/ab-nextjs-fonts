@@ -77,9 +77,9 @@ Use `font-inter-*` tailwindcss utilities to apply the **Inter** font to your nex
 
 ```tsx
 <p className="font-inter-light">...</p>
-
-{/* or */}
-
+#or
+<p className="font-inter-medium">...</p>
+#or
 <p className="font-inter-bold">...</p>
 ```
 
