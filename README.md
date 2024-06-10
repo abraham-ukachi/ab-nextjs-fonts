@@ -65,7 +65,7 @@ A list of all the supported **fonts** and their current status:
 | 2 | *`Mulish`* | [Done](./mulish) |
 | 3 | *`Quicksand`* | [Done](./quicksand) |
 | 4 | *`Roboto`* | [Done](./roboto) |
-| 5 | *`Zilla Slab`* | *In progress* |
+| 5 | *`ZillaSlab`* | [Done](.zilla-slab) |
 
 
 > NOTE: These fonts are also available offline ;) See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
@@ -126,6 +126,15 @@ Use `font-roboto-*` tailwindcss utilities to apply the **Roboto** font to your n
 
 ### Zilla Slab
 
+Use `font-zillaslab-*` tailwindcss utilities to apply the **ZillaSlab** font to your nextjs/react component:
+
+```tsx
+<p className="font-zillaslab-light">...</p>
+# or
+<p className="font-zillaslab-medium">...</p>
+# or
+<p className="font-zillaslab-bold">...</p>
+```
 
 ## TODOs
 
