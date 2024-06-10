@@ -63,8 +63,8 @@ A list of all the supported **fonts** and their current status:
 |:----|:-----|:-------|
 | 1 | *`Inter`* | [Done](./inter) |
 | 2 | *`Mulish`* | [Done](./mulish) |
-| 3 | *`Quicksand`* | *In progress* |
-| 4 | *`Roboto`* | Pending |
+| 3 | *`Quicksand`* | [Done](./quicksand) |
+| 4 | *`Roboto`* | *In progress* |
 | 5 | *`Zilla Slab`* | Pending |
 
 
@@ -77,9 +77,9 @@ Use `font-inter-*` tailwindcss utilities to apply the **Inter** font to your nex
 
 ```tsx
 <p className="font-inter-light">...</p>
-#or
+# or
 <p className="font-inter-medium">...</p>
-#or
+# or
 <p className="font-inter-bold">...</p>
 ```
 
@@ -88,8 +88,32 @@ Use `font-inter-*` tailwindcss utilities to apply the **Inter** font to your nex
 
 ### Mulish
 
+Use `font-mulish-*` tailwindcss utilities to apply the **Mulish** font to your nextjs/react component:
+
+```tsx
+<p className="font-mulish-light">...</p>
+# or
+<p className="font-mulish-medium">...</p>
+# or
+<p className="font-mulish-bold">...</p>
+```
+
+> NOTE: See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
+
+
 ### Quicksand
 
+Use `font-quicksand-*` tailwindcss utilities to apply the **Quicksand** font to your nextjs/react component:
+
+```tsx
+<p className="font-quicksand-light">...</p>
+# or
+<p className="font-quicksand-medium">...</p>
+# or
+<p className="font-quicksand-bold">...</p>
+```
+
+> NOTE: See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
 ### Roboto
 
 ### Zilla Slab
