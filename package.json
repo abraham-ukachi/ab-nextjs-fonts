@@ -1,6 +1,6 @@
 {
   "name": "ab-nextjs-fonts",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "✏️  A lightweight collection of React fonts created by Abraham Ukachi, and optimized for Next.js applications 😎.",
   "type": "module",
   "main": "index.ts",
