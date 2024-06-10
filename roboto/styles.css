@@ -1,0 +1,170 @@
+/* 
+* @license MIT
+* ~~~~~~~~~~~~
+* ab-nextjs-fonts
+* ~~~~~~~~~~~~ 
+* Copyright (c) 2024 Abraham Ukachi. The abElements Project.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the 'Software'), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions: 
+*  
+* The above copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software. 
+*
+* THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* @project: ab-nextjs-fonts
+* @name: Styles - Roboto - Font
+* @file: roboto/styles.css
+* @type: CSS Stylesheet
+* @authors: Abraham Ukachi <abraham.ukachi@laplateforme.io>
+*
+* Example usage:
+*   1+|> // Import the roboto font styles in typography or CSS file 
+*    -|> @import 'ab-nextjs-fonts/roboto/styles.css';
+*    -|>
+*
+*   2+|> // Use the regular Roboto font family in css' body
+*    -|>
+*    -|> body {
+*    -|>   font-family: Roboto; // or Roboto-Regular
+*    -|> }
+*    -|>
+*
+*/
+
+
+
+/*
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* MOTTO: We'll always do more 😜!!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+/* TODO: Use / Prioritize variable fonts instead */
+
+
+
+
+
+
+/* ====<<< Roboto - Font >>>=== */
+
+
+/* Roboto - Light (300) */
+@font-face {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./static/Roboto-Light.ttf') format('truetype');
+}
+
+
+/* Roboto - Regular (400) */
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Roboto-Regular.ttf') format('truetype');
+}
+
+
+/* Roboto - DEFAULT (regular) */
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Roboto-Regular.ttf') format('truetype');
+}
+
+
+/* Roboto - Medium (500) */
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./static/Roboto-Medium.ttf') format('truetype');
+}
+
+/* Roboto - Bold (700) */
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./static/Roboto-Bold.ttf') format('truetype');
+}
+
+
+/* Roboto - Black (900) */
+@font-face {
+  font-family: 'Roboto-Black';
+  font-weight: 900;
+  font-style: normal;
+  src: url('./static/Roboto-Black.ttf') format('truetype');
+}
+
+
+
+/* ====>>> End of Roboto Font <<<=== */
+
+
+
+
+
+/***** CSS rules for Roboto Font *****/
+
+
+/* Light - Roboto Font */
+.font.roboto.light {
+  font-family: 'Roboto-Light';
+}
+
+
+/* Regular - Roboto Font | DEFAULT */
+.font.roboto.regular, .font.roboto {
+  font-family: 'Roboto-Regular';
+}
+
+
+/* Medium - Roboto Font */
+.font.roboto.medium {
+  font-family: 'Roboto-Medium';
+}
+
+/* SemiBold - Roboto Font */
+.font.roboto.semibold {
+  font-family: 'Roboto-SemiBold';
+}
+
+
+/* Bold - Roboto Font */
+.font.roboto.bold {
+  font-family: 'Roboto-Bold';
+}
+
+
+/* ExtraBold - Roboto Font */
+.font.roboto.extrabold {
+  font-family: 'Roboto-ExtraBold';
+}
+
+
+/* Black - Roboto Font */
+.font.roboto.black {
+  font-family: 'Roboto-Black';
+}
+
+
+/* ===>>> End of CSS rules for Roboto Font <<<=== */
+
+
