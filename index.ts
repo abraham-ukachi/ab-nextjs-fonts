@@ -49,7 +49,7 @@
 
 import interStyles from './inter/styles.css';
 import mulishStyles from './mulish/styles.css';
-// TODD: import quicksandStyles from './quicksand/styles.css';
+import quicksandStyles from './quicksand/styles.css';
 // TODO: import robotoStyles from './roboto/styles.css';
 // TODO: import zillaSlabStyles from './zilla-slab/styles.css';
 
@@ -67,7 +67,7 @@ import mulishStyles from './mulish/styles.css';
 export {
   interStyles,
   mulishStyles,
-  // TODO: quicksandStyles,
+  quicksandStyles,
   // TODO: robotoStyles,
   // TODO: zillaSlabStyles,
 
