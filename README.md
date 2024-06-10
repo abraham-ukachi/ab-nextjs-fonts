@@ -55,7 +55,7 @@ pnpm install ab-nextjs-fonts
 ---
 
 
-## Fonts 
+## Fonts
 
 A list of all the supported **fonts** and their current status:
 
@@ -64,11 +64,11 @@ A list of all the supported **fonts** and their current status:
 | 1 | *`Inter`* | [Done](./inter) |
 | 2 | *`Mulish`* | [Done](./mulish) |
 | 3 | *`Quicksand`* | [Done](./quicksand) |
-| 4 | *`Roboto`* | *In progress* |
-| 5 | *`Zilla Slab`* | Pending |
+| 4 | *`Roboto`* | [Done](./roboto) |
+| 5 | *`Zilla Slab`* | *In progress* |
 
 
-> NOTE: These fonts are also available offline ;)
+> NOTE: These fonts are also available offline ;) See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
 
 
 ### Inter
@@ -83,7 +83,6 @@ Use `font-inter-*` tailwindcss utilities to apply the **Inter** font to your nex
 <p className="font-inter-bold">...</p>
 ```
 
-> NOTE: See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
 
 
 ### Mulish
@@ -98,7 +97,6 @@ Use `font-mulish-*` tailwindcss utilities to apply the **Mulish** font to your n
 <p className="font-mulish-bold">...</p>
 ```
 
-> NOTE: See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
 
 
 ### Quicksand
@@ -113,8 +111,18 @@ Use `font-quicksand-*` tailwindcss utilities to apply the **Quicksand** font to 
 <p className="font-quicksand-bold">...</p>
 ```
 
-> NOTE: See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
+
 ### Roboto
+
+Use `font-roboto-*` tailwindcss utilities to apply the **Roboto** font to your nextjs/react component:
+
+```tsx
+<p className="font-roboto-light">...</p>
+# or
+<p className="font-roboto-medium">...</p>
+# or
+<p className="font-roboto-bold">...</p>
+```
 
 ### Zilla Slab
 
@@ -122,6 +130,8 @@ Use `font-quicksand-*` tailwindcss utilities to apply the **Quicksand** font to 
 ## TODOs
 
 - [ ] Optimize all fonts
+- [ ] Add the *`Sacramento`* font
+- [ ] Add a *`Nerd Font`* font (for easy icon support)
 
 
 ## Learn More abElements
