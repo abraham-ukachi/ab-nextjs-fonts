@@ -1,0 +1,157 @@
+/* 
+* @license MIT
+* ~~~~~~~~~~~~
+* ab-nextjs-fonts
+* ~~~~~~~~~~~~ 
+* Copyright (c) 2024 Abraham Ukachi. The abElements Project.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the 'Software'), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions: 
+*  
+* The above copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software. 
+*
+* THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* @project: ab-nextjs-fonts
+* @name: Styles - Quicksand - Font
+* @file: quicksand/styles.css
+* @type: CSS Stylesheet
+* @authors: Abraham Ukachi <abraham.ukachi@laplateforme.io>
+*
+* Example usage:
+*   1+|> // Import the quicksand font styles in typography or CSS file 
+*    -|> @import 'ab-nextjs-fonts/quicksand/styles.css';
+*    -|>
+*
+*   2+|> // Use the regular Quicksand font family in css' body
+*    -|>
+*    -|> body {
+*    -|>   font-family: Quicksand; // or Quicksand-Regular
+*    -|> }
+*    -|>
+*
+*/
+
+
+
+/*
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* MOTTO: We'll always do more 😜!!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+/* TODO: Use / Prioritize variable fonts instead */
+
+
+
+
+
+
+/* ====<<< Quicksand - Font >>>=== */
+
+
+/* Quicksand - Light (300) */
+@font-face {
+  font-family: 'Quicksand-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./static/Quicksand-Light.ttf') format('truetype');
+}
+
+
+/* Quicksand - Regular (400) */
+@font-face {
+  font-family: 'Quicksand-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Quicksand-Regular.ttf') format('truetype');
+}
+
+
+/* Quicksand - DEFAULT (regular) */
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Quicksand-Regular.ttf') format('truetype');
+}
+
+/* Quicksand - Medium (500) */
+@font-face {
+  font-family: 'Quicksand-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./static/Quicksand-Medium.ttf') format('truetype');
+}
+
+/* Quicksand - SemiBold (600) */
+@font-face {
+  font-family: 'Quicksand-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./static/Quicksand-SemiBold.ttf') format('truetype');
+}
+
+/* Quicksand - Bold (700) */
+@font-face {
+  font-family: 'Quicksand-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./static/Quicksand-Bold.ttf') format('truetype');
+}
+
+
+
+/* ====>>> End of Quicksand Font <<<=== */
+
+
+
+
+
+
+/***** CSS rules for Quicksand Font *****/
+
+/* Light - Quicksand Font */
+.font.quicksand.light {
+  font-family: 'Quicksand-Light';
+}
+
+
+/* Regular - Quicksand Font | DEFAULT */
+.font.quicksand.regular, .font.quicksand {
+  font-family: 'Quicksand-Regular';
+}
+
+
+/* Medium - Quicksand Font */
+.font.quicksand.medium {
+  font-family: 'Quicksand-Medium';
+}
+
+/* SemiBold - Quicksand Font */
+.font.quicksand.semibold {
+  font-family: 'Quicksand-SemiBold';
+}
+
+
+/* Bold - Quicksand Font */
+.font.quicksand.bold {
+  font-family: 'Quicksand-Bold';
+}
+
+
+
+/* ===>>> End of CSS rules for Quicksand Font <<<=== */
+
+
