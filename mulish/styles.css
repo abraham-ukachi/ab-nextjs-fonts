@@ -1,0 +1,197 @@
+/* 
+* @license MIT
+* ~~~~~~~~~~~~
+* ab-nextjs-fonts
+* ~~~~~~~~~~~~ 
+* Copyright (c) 2024 Abraham Ukachi. The abElements Project.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the 'Software'), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions: 
+*  
+* The above copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software. 
+*
+* THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* @project: ab-nextjs-fonts
+* @name: Styles - Inter - Font
+* @file: mulish/styles.css
+* @type: CSS Stylesheet
+* @authors: Abraham Ukachi <abraham.ukachi@laplateforme.io>
+*
+* Example usage:
+*   1+|> // Import the mulish font styles in typography or CSS file 
+*    -|> @import 'ab-nextjs-fonts/mulish/styles.css';
+*    -|>
+*
+*   2+|> // Use the regular Inter font family in css' body
+*    -|>
+*    -|> body {
+*    -|>   font-family: Inter; // or Inter-Regular
+*    -|> }
+*    -|>
+*
+*/
+
+
+
+/*
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* MOTTO: We'll always do more 😜!!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+/* TODO: Use / Prioritize variable fonts instead */
+
+
+
+
+
+
+
+/* ====<<< Mulish - Font >>>=== */
+
+
+/* Mulish - ExtraLight (200) */
+@font-face {
+  font-family: 'Mulish-ExtraLight';
+  font-weight: 200;
+  font-style: normal;
+  src: url('./static/Mulish-ExtraLight.ttf') format('truetype');
+}
+
+/* Mulish - Light (300) */
+@font-face {
+  font-family: 'Mulish-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./static/Mulish-Light.ttf') format('truetype');
+}
+
+
+/* Mulish - Regular (400) */
+@font-face {
+  font-family: 'Mulish-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Mulish-Regular.ttf') format('truetype');
+}
+
+/* Mulish - DEFAULT (regular) */
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./static/Mulish-Regular.ttf') format('truetype');
+}
+
+/* Mulish - Medium (500) */
+@font-face {
+  font-family: 'Mulish-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./static/Mulish-Medium.ttf') format('truetype');
+}
+
+/* Mulish - SemiBold (600) */
+@font-face {
+  font-family: 'Mulish-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./static/Mulish-SemiBold.ttf') format('truetype');
+}
+
+/* Mulish - Bold (700) */
+@font-face {
+  font-family: 'Mulish-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./static/Mulish-Bold.ttf') format('truetype');
+}
+
+/* Mulish - ExtraBold (800) */
+@font-face {
+  font-family: 'Mulish-ExtraBold';
+  font-weight: 800;
+  font-style: normal;
+  src: url('./static/Mulish-ExtraBold.ttf') format('truetype');
+}
+
+/* Mulish - Black (900) */
+@font-face {
+  font-family: 'Mulish-Black';
+  font-weight: 900;
+  font-style: normal;
+  src: url('./static/Mulish-Black.ttf') format('truetype');
+}
+
+
+
+/* ====>>> End of Mulish Font <<<=== */
+
+
+
+
+
+/***** CSS rules for Mulish Font *****/
+
+/* ExtraLight - Mulish Font */
+.font.mulish.extralight {
+  font-family: 'Mulish-ExtraLight';
+}
+
+
+/* Light - Mulish Font */
+.font.mulish.light {
+  font-family: 'Mulish-Light';
+}
+
+
+/* Regular - Mulish Font | DEFAULT */
+.font.mulish.regular, .font.mulish {
+  font-family: 'Mulish-Regular';
+}
+
+
+/* Medium - Mulish Font */
+.font.mulish.medium {
+  font-family: 'Mulish-Medium';
+}
+
+/* SemiBold - Mulish Font */
+.font.mulish.semibold {
+  font-family: 'Mulish-SemiBold';
+}
+
+
+/* Bold - Mulish Font */
+.font.mulish.bold {
+  font-family: 'Mulish-Bold';
+}
+
+
+/* ExtraBold - Mulish Font */
+.font.mulish.extrabold {
+  font-family: 'Mulish-ExtraBold';
+}
+
+
+/* Black - Mulish Font */
+.font.mulish.black {
+  font-family: 'Mulish-Black';
+}
+
+
+/* ===>>> End of CSS rules for Mulish Font <<<=== */
+
+
