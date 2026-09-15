@@ -200,3 +200,39 @@
 
 
 /* ===>>> End of CSS rules for Inter Font <<<=== */
+
+/* ==== Hyphenated utility aliases (demo/Next friendly) ====
+ * README / shared demo: font-<family>-<weight>
+ */
+
+.font-inter-extralight {
+  font-family: 'Inter-ExtraLight';
+}
+
+.font-inter-light {
+  font-family: 'Inter-Light';
+}
+
+.font-inter-regular {
+  font-family: 'Inter-Regular';
+}
+
+.font-inter-medium {
+  font-family: 'Inter-Medium';
+}
+
+.font-inter-semibold {
+  font-family: 'Inter-SemiBold';
+}
+
+.font-inter-bold {
+  font-family: 'Inter-Bold';
+}
+
+.font-inter-extrabold {
+  font-family: 'Inter-ExtraBold';
+}
+
+.font-inter-black {
+  font-family: 'Inter-Black';
+}

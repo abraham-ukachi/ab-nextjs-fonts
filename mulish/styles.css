@@ -194,4 +194,38 @@
 
 /* ===>>> End of CSS rules for Mulish Font <<<=== */
 
+/* ==== Hyphenated utility aliases (demo/Next friendly) ====
+ * README / shared demo: font-<family>-<weight>
+ */
 
+.font-mulish-extralight {
+  font-family: 'Mulish-ExtraLight';
+}
+
+.font-mulish-light {
+  font-family: 'Mulish-Light';
+}
+
+.font-mulish-regular {
+  font-family: 'Mulish-Regular';
+}
+
+.font-mulish-medium {
+  font-family: 'Mulish-Medium';
+}
+
+.font-mulish-semibold {
+  font-family: 'Mulish-SemiBold';
+}
+
+.font-mulish-bold {
+  font-family: 'Mulish-Bold';
+}
+
+.font-mulish-extrabold {
+  font-family: 'Mulish-ExtraBold';
+}
+
+.font-mulish-black {
+  font-family: 'Mulish-Black';
+}

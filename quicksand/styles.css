@@ -154,4 +154,26 @@
 
 /* ===>>> End of CSS rules for Quicksand Font <<<=== */
 
+/* ==== Hyphenated utility aliases (demo/Next friendly) ====
+ * README / shared demo: font-<family>-<weight>
+ */
 
+.font-quicksand-light {
+  font-family: 'Quicksand-Light';
+}
+
+.font-quicksand-regular {
+  font-family: 'Quicksand-Regular';
+}
+
+.font-quicksand-medium {
+  font-family: 'Quicksand-Medium';
+}
+
+.font-quicksand-semibold {
+  font-family: 'Quicksand-SemiBold';
+}
+
+.font-quicksand-bold {
+  font-family: 'Quicksand-Bold';
+}
