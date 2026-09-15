@@ -129,7 +129,22 @@
 
 /* ===>>> End of CSS rules for ZillaSlab Font <<<=== */
 
+/* ==== Hyphenated utility aliases (demo/Next friendly) ====
+ * README / shared demo: font-<family>-<weight>
+ */
 
+.font-zillaslab-light {
+  font-family: 'ZillaSlab-Light';
+}
 
+.font-zillaslab-regular {
+  font-family: 'ZillaSlab-Regular';
+}
 
+.font-zillaslab-medium {
+  font-family: 'ZillaSlab-Regular';
+}
 
+.font-zillaslab-bold {
+  font-family: 'ZillaSlab-Bold';
+}

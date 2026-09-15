@@ -167,4 +167,26 @@
 
 /* ===>>> End of CSS rules for Roboto Font <<<=== */
 
+/* ==== Hyphenated utility aliases (demo/Next friendly) ====
+ * README / shared demo: font-<family>-<weight>
+ */
 
+.font-roboto-light {
+  font-family: 'Roboto-Light';
+}
+
+.font-roboto-regular {
+  font-family: 'Roboto-Regular';
+}
+
+.font-roboto-medium {
+  font-family: 'Roboto-Medium';
+}
+
+.font-roboto-bold {
+  font-family: 'Roboto-Bold';
+}
+
+.font-roboto-black {
+  font-family: 'Roboto-Black';
+}
