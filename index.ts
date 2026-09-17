@@ -3,7 +3,7 @@
 * ~~~~~~~~~~~~
 * ab-nextjs-fonts
 * ~~~~~~~~~~~~ 
-* Copyright (c) 2024 Abraham Ukachi. The abElements Project.
+* Copyright (c) 2026 Abraham Ukachi. The abElements Project.
 *
 * @project: ab-nextjs-fonts
 * @name: Fonts - abElements
