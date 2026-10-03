@@ -5,6 +5,18 @@
   "type": "module",
   "main": "index.ts",
   "types": "types/index.d.ts",
+  "files": [
+    "index.ts",
+    "types",
+    "inter",
+    "mulish",
+    "quicksand",
+    "roboto",
+    "zilla-slab",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "homepage": "https://github.com/abraham-ukachi/ab-nextjs-fonts",
   "repository": {
     "type": "git",
@@ -15,7 +27,9 @@
   },
   "scripts": {
     "lint": "eslint . --fix",
-    "test": "vitest run"
+    "test": "vitest run",
+    "check:publish": "node scripts/check-publish-deps.mjs",
+    "prepublishOnly": "node scripts/check-publish-deps.mjs"
   },
   "keywords": [
     "react",
@@ -32,7 +46,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "next": "16.3.4",
+    "next": "^16.3.4",
     "react": "^19",
     "react-dom": "^19"
   },
