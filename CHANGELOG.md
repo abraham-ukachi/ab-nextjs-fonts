@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.3...v0.2.4) (2026-10-03)
+
+* Publish to npm automatically from GitHub Actions with Trusted Publishing (OIDC + provenance, no NPM_TOKEN)
+* Ship only package files via `files`; `next` peer is now `^16.3.4`
+
 ### [0.2.3](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.2...v0.2.3) (2026-09-17)
 
 ### [0.2.2](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.1...v0.2.2) (2025-09-17)
