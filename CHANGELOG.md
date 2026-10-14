@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.4...v0.2.5) (2026-10-14)
+
+* **Mulish titles (God, §8 Q6):** the plain `'Mulish'` family is now the **variable** font (`font-weight: 200 1000`, normal + italic), so `font-weight: 700/800` render real Bold/ExtraBold instead of faux bold. Includes Cyrillic (220/256 U+04xx) for Russian titles
+* **woff2:** `Mulish-VariableFont_wght.woff2` (77 KB, was 210 KB TTF) + italic (83 KB), served first; variable TTF kept as fallback
+* **`font-display: swap`** on every Mulish face
+* Tests: variable range, swap, files exist, Cyrillic coverage
+* **Packaging:** the 23 static TTFs no CSS references are no longer published (every referenced face still ships; test-guarded)
+* **Tooling:** `typecheck` script (`tsconfig.typecheck.json`)
+
 ### [0.2.4](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.3...v0.2.4) (2026-10-03)
 
 * Publish to npm automatically from GitHub Actions with Trusted Publishing (OIDC + provenance, no NPM_TOKEN)
