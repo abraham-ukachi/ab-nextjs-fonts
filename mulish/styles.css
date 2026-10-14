@@ -24,10 +24,10 @@
 * SOFTWARE.
 *
 * @project: ab-nextjs-fonts
-* @name: Styles - Inter - Font
+* @name: Styles - Mulish - Font
 * @file: mulish/styles.css
 * @type: CSS Stylesheet
-* @authors: Abraham Ukachi <abraham.ukachi@laplateforme.io>
+* @authors: Abraham Ukachi <abrahamukachi@gmail.com>
 *
 * Example usage:
 *   1+|> // Import the mulish font styles in typography or CSS file 
@@ -67,6 +67,7 @@
   font-family: 'Mulish-ExtraLight';
   font-weight: 200;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-ExtraLight.ttf') format('truetype');
 }
 
@@ -75,6 +76,7 @@
   font-family: 'Mulish-Light';
   font-weight: 300;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-Light.ttf') format('truetype');
 }
 
@@ -84,15 +86,36 @@
   font-family: 'Mulish-Regular';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-Regular.ttf') format('truetype');
 }
 
-/* Mulish - DEFAULT (regular) */
+/* 🔤 Mulish - DEFAULT family = VARIABLE font (0.2.5)
+ * ✅ one file covers weights 200–1000, so `font-family: Mulish; font-weight: 800` is a REAL
+ *    ExtraBold (before 0.2.5 'Mulish' only had Regular 400 → browsers faked bold).
+ * 🇷🇺 includes Cyrillic (220/256 U+04xx glyphs) → Welcome v6 titles in ru (God, §8 Q6).
+ * 📦 woff2 first (77 KB), variable TTF as fallback. */
 @font-face {
-  font-family: 'Mulish';
-  font-weight: 400;
-  font-style: normal;
-  src: url('./static/Mulish-Regular.ttf') format('truetype');
+  font-family: 'Mulish'; /* 🏷️ */
+  font-weight: 200 1000; /* 🎚️ variable weight range */
+  font-style: normal; /* 🧍 */
+  font-display: swap; /* ⚡ text visible immediately, no FOIT */
+  src:
+    url('./Mulish-VariableFont_wght.woff2') format('woff2') tech(variations), /* 📦 modern */
+    url('./Mulish-VariableFont_wght.woff2') format('woff2'), /* 📦 older parsers ignore tech() */
+    url('./Mulish-VariableFont_wght.ttf') format('truetype'); /* 🕰️ fallback */
+}
+
+/* 🔤 Mulish - DEFAULT family, italic (variable) */
+@font-face {
+  font-family: 'Mulish'; /* 🏷️ */
+  font-weight: 200 1000; /* 🎚️ */
+  font-style: italic; /* 🪶 */
+  font-display: swap; /* ⚡ */
+  src:
+    url('./Mulish-Italic-VariableFont_wght.woff2') format('woff2') tech(variations), /* 📦 */
+    url('./Mulish-Italic-VariableFont_wght.woff2') format('woff2'), /* 📦 */
+    url('./Mulish-Italic-VariableFont_wght.ttf') format('truetype'); /* 🕰️ */
 }
 
 /* Mulish - Medium (500) */
@@ -100,6 +123,7 @@
   font-family: 'Mulish-Medium';
   font-weight: 500;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-Medium.ttf') format('truetype');
 }
 
@@ -108,6 +132,7 @@
   font-family: 'Mulish-SemiBold';
   font-weight: 600;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-SemiBold.ttf') format('truetype');
 }
 
@@ -116,6 +141,7 @@
   font-family: 'Mulish-Bold';
   font-weight: 700;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-Bold.ttf') format('truetype');
 }
 
@@ -124,6 +150,7 @@
   font-family: 'Mulish-ExtraBold';
   font-weight: 800;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-ExtraBold.ttf') format('truetype');
 }
 
@@ -132,6 +159,7 @@
   font-family: 'Mulish-Black';
   font-weight: 900;
   font-style: normal;
+  font-display: swap; /* ⚡ */
   src: url('./static/Mulish-Black.ttf') format('truetype');
 }
 
