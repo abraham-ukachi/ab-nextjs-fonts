@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.6](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.5...v0.2.6) (2026-10-20)
+
+* ⌨️ **Roboto Mono (G30, D29a):** new `roboto-mono/` family, the abElements code font. Variable weight 100–700, normal + italic, Latin + Cyrillic (same coverage as Mulish), woff2 first (≈105 / 113 KB) with the variable TTFs as fallback, `font-display: swap`
+* ⚖️ Upstream google/fonts `ofl/robotomono` files with their **SIL OFL 1.1** licence (`roboto-mono/OFL.txt`)
+* 📦 `robotoMonoStyles` export (`font-robotomono-light` … `-bold`), README section
+* 🔧 npm author email is abrahamukachi@gmail.com
+* Tests: faces, files exist + published, licence, Latin + Cyrillic coverage, export ↔ CSS classes
+
 ### [0.2.5](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.4...v0.2.5) (2026-10-14)
 
 * **Mulish titles (God, §8 Q6):** the plain `'Mulish'` family is now the **variable** font (`font-weight: 200 1000`, normal + italic), so `font-weight: 700/800` render real Bold/ExtraBold instead of faux bold. Includes Cyrillic (220/256 U+04xx) for Russian titles

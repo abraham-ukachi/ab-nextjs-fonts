@@ -65,7 +65,8 @@ A list of all the supported **fonts** and their current status:
 | 2 | *`Mulish`* | [Done](./mulish) |
 | 3 | *`Quicksand`* | [Done](./quicksand) |
 | 4 | *`Roboto`* | [Done](./roboto) |
-| 5 | *`ZillaSlab`* | [Done](.zilla-slab) |
+| 5 | *`ZillaSlab`* | [Done](./zilla-slab) |
+| 6 | *`Roboto Mono`* ⌨️ | [Done](./roboto-mono) |
 
 
 > NOTE: These fonts are also available offline ;) See [ab-nextjs-theme/typography](https://github.com/abraham-ukachi/ab-nextjs-theme/typography) for more details.
@@ -123,6 +124,23 @@ Use `font-roboto-*` tailwindcss utilities to apply the **Roboto** font to your n
 # or
 <p className="font-roboto-bold">...</p>
 ```
+
+### Roboto Mono
+
+⌨️ The code font (0.2.6). Variable weight 100–700, normal + italic, Latin + Cyrillic, under the [SIL Open Font License 1.1](./roboto-mono/OFL.txt). Import the stylesheet, then use the `'Roboto Mono'` family or the `font-robotomono-*` utilities:
+
+```css
+@import 'ab-nextjs-fonts/roboto-mono/styles.css';
+code { font-family: 'Roboto Mono', ui-monospace, monospace; }
+```
+
+```tsx
+<code className="font-robotomono-regular">pnpm add ab-nextjs-core</code>
+# or
+<code className="font-robotomono-medium">...</code>
+```
+
+`ab-nextjs-theme` ≥ 0.3.4 uses it as `--ab-font-code`, with the system monospace stack as fallback.
 
 ### Zilla Slab
 
