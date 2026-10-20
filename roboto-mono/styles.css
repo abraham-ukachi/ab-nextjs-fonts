@@ -1,0 +1,99 @@
+/* 
+* @license MIT
+* ~~~~~~~~~~~~
+* ab-nextjs-fonts
+* ~~~~~~~~~~~~ 
+* Copyright (c) 2026 Abraham Ukachi. The abElements Project.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the 'Software'), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions: 
+*  
+* The above copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software. 
+*
+* THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* @project: ab-nextjs-fonts
+* @name: Styles - Roboto Mono - Font
+* @file: roboto-mono/styles.css
+* @type: CSS Stylesheet
+* @authors: Abraham Ukachi <abrahamukachi@gmail.com>
+*
+* Example usage:
+*   1+|> // Import the Roboto Mono font styles in your typography or CSS file
+*    -|> @import 'ab-nextjs-fonts/roboto-mono/styles.css';
+*    -|>
+*   2+|> // Use it for code (ab-nextjs-theme >= 0.3.4 does this via --ab-font-code)
+*    -|> code { font-family: 'Roboto Mono', ui-monospace, monospace; }
+*
+*/
+
+/*
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* MOTTO: We'll always do more 😜!!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+/* ⌨️ 0.2.6 (G30, D29a): Roboto Mono, the code font of the abElements docs shell.
+ * 🔤 Variable weight 100–700, normal + italic. Latin + Cyrillic (same coverage as Mulish).
+ * 📦 woff2 first, variable TTF fallback. ⚖️ SIL Open Font License 1.1, see ./OFL.txt */
+
+/* 🔤 Roboto Mono - normal (variable) */
+@font-face {
+  font-family: 'Roboto Mono'; /* 🏷️ */
+  font-weight: 100 700; /* 🎚️ variable weight range */
+  font-style: normal; /* 🧍 */
+  font-display: swap; /* ⚡ text visible immediately, no FOIT */
+  src:
+    url('./RobotoMono-VariableFont_wght.woff2') format('woff2') tech(variations), /* 📦 modern */
+    url('./RobotoMono-VariableFont_wght.woff2') format('woff2'), /* 📦 older parsers ignore tech() */
+    url('./RobotoMono-VariableFont_wght.ttf') format('truetype'); /* 🕰️ fallback */
+}
+
+/* 🔤 Roboto Mono - italic (variable) */
+@font-face {
+  font-family: 'Roboto Mono'; /* 🏷️ */
+  font-weight: 100 700; /* 🎚️ */
+  font-style: italic; /* 🪶 */
+  font-display: swap; /* ⚡ */
+  src:
+    url('./RobotoMono-Italic-VariableFont_wght.woff2') format('woff2') tech(variations), /* 📦 */
+    url('./RobotoMono-Italic-VariableFont_wght.woff2') format('woff2'), /* 📦 */
+    url('./RobotoMono-Italic-VariableFont_wght.ttf') format('truetype'); /* 🕰️ */
+}
+
+/* 🧰 hyphenated utilities (same pattern as the other families) */
+.font-robotomono-light {
+  font-family: 'Roboto Mono', ui-monospace, monospace; /* ⌨️ */
+  font-weight: 300; /* 🎚️ */
+}
+
+.font-robotomono-regular {
+  font-family: 'Roboto Mono', ui-monospace, monospace; /* ⌨️ */
+  font-weight: 400; /* 🎚️ */
+}
+
+.font-robotomono-medium {
+  font-family: 'Roboto Mono', ui-monospace, monospace; /* ⌨️ */
+  font-weight: 500; /* 🎚️ */
+}
+
+.font-robotomono-semibold {
+  font-family: 'Roboto Mono', ui-monospace, monospace; /* ⌨️ */
+  font-weight: 600; /* 🎚️ */
+}
+
+.font-robotomono-bold {
+  font-family: 'Roboto Mono', ui-monospace, monospace; /* ⌨️ */
+  font-weight: 700; /* 🎚️ */
+}
