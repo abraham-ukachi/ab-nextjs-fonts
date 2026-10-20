@@ -36,6 +36,15 @@ export declare const robotoStyles: {
   readonly black: 'font-roboto-black';
 };
 
+/** ⌨️ 0.2.6 (G30): Roboto Mono, the code font */
+export declare const robotoMonoStyles: {
+  readonly light: 'font-robotomono-light';
+  readonly regular: 'font-robotomono-regular';
+  readonly medium: 'font-robotomono-medium';
+  readonly semibold: 'font-robotomono-semibold';
+  readonly bold: 'font-robotomono-bold';
+};
+
 export declare const zillaSlabStyles: {
   readonly light: 'font-zillaslab-light';
   readonly regular: 'font-zillaslab-regular';

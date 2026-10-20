@@ -67,6 +67,15 @@ export const robotoStyles = {
   black: 'font-roboto-black',
 } as const;
 
+/** ⌨️ 0.2.6 (G30): Roboto Mono, the code font — pair with `@import 'ab-nextjs-fonts/roboto-mono/styles.css'` */
+export const robotoMonoStyles = {
+  light: 'font-robotomono-light', // 🎚️ 300
+  regular: 'font-robotomono-regular', // 🎚️ 400
+  medium: 'font-robotomono-medium', // 🎚️ 500
+  semibold: 'font-robotomono-semibold', // 🎚️ 600
+  bold: 'font-robotomono-bold', // 🎚️ 700
+} as const;
+
 export const zillaSlabStyles = {
   light: 'font-zillaslab-light',
   regular: 'font-zillaslab-regular',
