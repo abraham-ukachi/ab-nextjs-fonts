@@ -1,6 +1,6 @@
 {
   "name": "ab-nextjs-fonts",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "✏️  A lightweight collection of React fonts created by Abraham Ukachi, and optimized for Next.js applications 😎.",
   "type": "module",
   "main": "index.ts",
@@ -12,6 +12,7 @@
     "mulish",
     "quicksand",
     "roboto",
+    "roboto-mono",
     "zilla-slab",
     "!inter/static/Inter-Thin.ttf",
     "!mulish/static/Mulish-BlackItalic.ttf",
@@ -66,7 +67,7 @@
   "author": {
     "name": "Abraham Ukachi",
     "url": "https://github.com/abraham-ukachi",
-    "email": "abraham.ukachi@laplateforme.io"
+    "email": "abrahamukachi@gmail.com"
   },
   "license": "MIT",
   "peerDependencies": {
