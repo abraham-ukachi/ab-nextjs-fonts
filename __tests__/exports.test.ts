@@ -7,6 +7,7 @@ import {
   mulishStyles,
   quicksandStyles,
   robotoStyles,
+  robotoMonoStyles,
   zillaSlabStyles,
 } from "../index.ts";
 
@@ -17,6 +18,7 @@ const EXPECTED_EXPORTS = [
   "mulishStyles",
   "quicksandStyles",
   "robotoStyles",
+  "robotoMonoStyles",
   "zillaSlabStyles",
 ] as const;
 
@@ -27,6 +29,7 @@ describe("ab-nextjs-fonts exports", () => {
     expect(Object.keys(quicksandStyles).length).toBeGreaterThan(0);
     expect(Object.keys(robotoStyles).length).toBeGreaterThan(0);
     expect(Object.keys(zillaSlabStyles).length).toBeGreaterThan(0);
+    expect(Object.keys(robotoMonoStyles).length).toBeGreaterThan(0); // ⌨️ 0.2.6
   });
 
   it("mirrors the same named exports in types/index.d.ts", () => {
