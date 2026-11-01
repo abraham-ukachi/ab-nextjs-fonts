@@ -66,6 +66,7 @@
   font-family: 'Roboto-Light';
   font-weight: 300;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Roboto-Light.ttf') format('truetype');
 }
 
@@ -75,6 +76,7 @@
   font-family: 'Roboto-Regular';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Roboto-Regular.ttf') format('truetype');
 }
 
@@ -84,6 +86,7 @@
   font-family: 'Roboto';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Roboto-Regular.ttf') format('truetype');
 }
 
@@ -93,6 +96,7 @@
   font-family: 'Roboto-Medium';
   font-weight: 500;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Roboto-Medium.ttf') format('truetype');
 }
 
@@ -101,6 +105,7 @@
   font-family: 'Roboto-Bold';
   font-weight: 700;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Roboto-Bold.ttf') format('truetype');
 }
 
@@ -110,6 +115,7 @@
   font-family: 'Roboto-Black';
   font-weight: 900;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Roboto-Black.ttf') format('truetype');
 }
 

@@ -67,6 +67,7 @@
   font-family: 'Inter-ExtraLight';
   font-weight: 200;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-ExtraLight.ttf') format('truetype');
 }
 
@@ -75,6 +76,7 @@
   font-family: 'Inter-Light';
   font-weight: 300;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-Light.ttf') format('truetype');
 }
 
@@ -84,6 +86,7 @@
   font-family: 'Inter-Regular';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-Regular.ttf') format('truetype');
 }
 
@@ -93,6 +96,7 @@
   font-family: 'Inter';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-Regular.ttf') format('truetype');
 }
 
@@ -102,6 +106,7 @@
   font-family: 'Inter-Medium';
   font-weight: 500;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-Medium.ttf') format('truetype');
 }
 
@@ -110,6 +115,7 @@
   font-family: 'Inter-SemiBold';
   font-weight: 600;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-SemiBold.ttf') format('truetype');
 }
 
@@ -118,6 +124,7 @@
   font-family: 'Inter-Bold';
   font-weight: 700;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-Bold.ttf') format('truetype');
 }
 
@@ -126,6 +133,7 @@
   font-family: 'Inter-ExtraBold';
   font-weight: 800;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-ExtraBold.ttf') format('truetype');
 }
 
@@ -134,6 +142,7 @@
   font-family: 'Inter-Black';
   font-weight: 900;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Inter-Black.ttf') format('truetype');
 }
 
