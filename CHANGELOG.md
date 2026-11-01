@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### Unreleased (0.2.7)
+### [0.2.7](https://github.com/abraham-ukachi/ab-nextjs-fonts/compare/v0.2.6...v0.2.7) (2026-11-01)
 
 * ⚡ **`font-display: swap`** on every `@font-face` (Inter, Quicksand, Roboto, Zilla Slab; Mulish + Roboto Mono already had it), test-guarded for every family
 * 📦 **Inter woff2:** the 8 shipped static weights (200–900) now load `woff2` first, with the TTF kept as fallback. Same glyphs (2505 code points) and weights, converted losslessly with fontTools. Regular is 101 KB (was 310 KB); all 8 weights 0.86 MB, was 2.51 MB (−66%)
