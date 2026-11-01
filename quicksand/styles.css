@@ -66,6 +66,7 @@
   font-family: 'Quicksand-Light';
   font-weight: 300;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Quicksand-Light.ttf') format('truetype');
 }
 
@@ -75,6 +76,7 @@
   font-family: 'Quicksand-Regular';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Quicksand-Regular.ttf') format('truetype');
 }
 
@@ -84,6 +86,7 @@
   font-family: 'Quicksand';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Quicksand-Regular.ttf') format('truetype');
 }
 
@@ -92,6 +95,7 @@
   font-family: 'Quicksand-Medium';
   font-weight: 500;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Quicksand-Medium.ttf') format('truetype');
 }
 
@@ -100,6 +104,7 @@
   font-family: 'Quicksand-SemiBold';
   font-weight: 600;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Quicksand-SemiBold.ttf') format('truetype');
 }
 
@@ -108,6 +113,7 @@
   font-family: 'Quicksand-Bold';
   font-weight: 700;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/Quicksand-Bold.ttf') format('truetype');
 }
 

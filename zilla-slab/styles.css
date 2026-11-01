@@ -67,6 +67,7 @@
   font-family: 'ZillaSlab-Light';
   font-weight: 300;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/ZillaSlab-Light.ttf') format('truetype');
 }
 
@@ -76,6 +77,7 @@
   font-family: 'ZillaSlab-Regular';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/ZillaSlab-Regular.ttf') format('truetype');
 }
 
@@ -85,6 +87,7 @@
   font-family: 'ZillaSlab';
   font-weight: 400;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/ZillaSlab-Regular.ttf') format('truetype');
 }
 
@@ -95,6 +98,7 @@
   font-family: 'ZillaSlab-Bold';
   font-weight: 700;
   font-style: normal;
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
   src: url('./static/ZillaSlab-Bold.ttf') format('truetype');
 }
 

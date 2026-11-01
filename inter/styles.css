@@ -67,7 +67,10 @@
   font-family: 'Inter-ExtraLight';
   font-weight: 200;
   font-style: normal;
-  src: url('./static/Inter-ExtraLight.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-ExtraLight.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-ExtraLight.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 /* Inter - Light (300) */
@@ -75,7 +78,10 @@
   font-family: 'Inter-Light';
   font-weight: 300;
   font-style: normal;
-  src: url('./static/Inter-Light.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-Light.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-Light.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 
@@ -84,7 +90,10 @@
   font-family: 'Inter-Regular';
   font-weight: 400;
   font-style: normal;
-  src: url('./static/Inter-Regular.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-Regular.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-Regular.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 
@@ -93,7 +102,10 @@
   font-family: 'Inter';
   font-weight: 400;
   font-style: normal;
-  src: url('./static/Inter-Regular.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-Regular.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-Regular.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 
@@ -102,7 +114,10 @@
   font-family: 'Inter-Medium';
   font-weight: 500;
   font-style: normal;
-  src: url('./static/Inter-Medium.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-Medium.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-Medium.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 /* Inter - SemiBold (600) */
@@ -110,7 +125,10 @@
   font-family: 'Inter-SemiBold';
   font-weight: 600;
   font-style: normal;
-  src: url('./static/Inter-SemiBold.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-SemiBold.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-SemiBold.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 /* Inter - Bold (700) */
@@ -118,7 +136,10 @@
   font-family: 'Inter-Bold';
   font-weight: 700;
   font-style: normal;
-  src: url('./static/Inter-Bold.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-Bold.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-Bold.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 /* Inter - ExtraBold (800) */
@@ -126,7 +147,10 @@
   font-family: 'Inter-ExtraBold';
   font-weight: 800;
   font-style: normal;
-  src: url('./static/Inter-ExtraBold.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-ExtraBold.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-ExtraBold.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 /* Inter - Black (900) */
@@ -134,7 +158,10 @@
   font-family: 'Inter-Black';
   font-weight: 900;
   font-style: normal;
-  src: url('./static/Inter-Black.ttf') format('truetype');
+  font-display: swap; /* ⚡ 0.2.7: text shows at once in the fallback font (no FOIT) */
+  src:
+    url('./static/Inter-Black.woff2') format('woff2'), /* 📦 0.2.7: woff2 first (~105 KB, was ~310 KB TTF) */
+    url('./static/Inter-Black.ttf') format('truetype'); /* 🕰️ fallback */
 }
 
 
